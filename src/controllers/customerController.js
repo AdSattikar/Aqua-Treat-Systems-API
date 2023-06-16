@@ -29,6 +29,7 @@ exports.getCustomerByName = async (req, res) => {
 // Create a new customer
 exports.createCustomer = async (req, res) => {
   const {
+    customerId,
     firstname,
     lastname,
     waterpurifier,
@@ -47,6 +48,7 @@ exports.createCustomer = async (req, res) => {
 
   try {
     const customer = new Customer({
+      customerId,
       firstname,
       lastname,
       waterpurifier,

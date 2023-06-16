@@ -11,6 +11,10 @@ const nameValidator = [
 ];
 
 const customerSchema = new mongoose.Schema({
+  customerId:{
+    type: String,
+    required:[true,'Please provide a customerId']
+  },
   firstname: {
     type: String,
     required: [true, 'Please provide a name'],
@@ -28,7 +32,6 @@ const customerSchema = new mongoose.Schema({
   waterpurifier_type: {
     type: String,
     required: [true, 'Please provide a water purifier type'],
-    enum: ['RO', 'UV', 'RO+UV', 'Other'],
   },
   cost: {
     type: Number,
