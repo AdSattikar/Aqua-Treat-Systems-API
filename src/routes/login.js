@@ -1,7 +1,7 @@
 const express = require('express');
 const { body } = require('express-validator');
 const adminController = require('../controllers/authController');
-const fetchAdmin = require('../middleware/fetchAdmin');
+const fetchAdmin = require('../middleware/fetchadmin');
 
 const router = express.Router();
 
