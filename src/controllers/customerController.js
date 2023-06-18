@@ -5,7 +5,7 @@ const Customer = require('../models/customer');
 exports.getAllCustomers = async (req, res) => {
   try {
     const customers = await Customer.find();
-    res.json(customers);
+    res.status(200).json(customers);
   } catch (error) {
     res.status(500).json({ error: 'Internal server error' });
   }
@@ -94,8 +94,10 @@ exports.updateCustomerById = async (req, res) => {
     });
 
     const updatedCustomer = await customer.save();
+   
 
-    res.json(updatedCustomer);
+    res.status(205).json({ customer: updatedCustomer });
+
   } catch (error) {
     res.status(400).json({ error: 'Bad request' });
   }

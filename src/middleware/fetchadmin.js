@@ -11,7 +11,7 @@ const fetchadmin = (req, res, next) => {
     }
     try {
         const data = jwt.verify(token, JWT_SECRET);
-        console.log(data)
+      
         req.admin = data.admin;
         next();
     } catch (error) {
