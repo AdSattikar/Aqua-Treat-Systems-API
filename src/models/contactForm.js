@@ -9,11 +9,11 @@ const contactFormSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  subject: {
+  enquiry: {
     type: String,
     required: true
   },
-  message: {
+  address: {
     type: String,
     required: true
   },
