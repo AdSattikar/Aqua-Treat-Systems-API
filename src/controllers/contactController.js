@@ -3,14 +3,14 @@ const ContactForm = require('../models/contactForm');
 // Handle the contact form submission
 exports.submitContactForm = async (req, res) => {
   try {
-    const { name, phoneNumber, subject, message } = req.body;
+    const { name, phoneNumber, enquiry, address } = req.body;
     
     // Create a new contact form entry
     const contactFormEntry = new ContactForm({
       name,
       phoneNumber,
-      subject,
-      message
+      enquiry,
+      address
     });
 
     // Save the contact form entry to the database
@@ -27,8 +27,8 @@ exports.submitContactForm = async (req, res) => {
 exports.getAllEnquiries = async (req, res) => {
     try {
       const enquiries = await ContactForm.find();
-      res.status(200).json(enquiries);
       console.log(enquiries)
+      res.status(201).json(enquiries);
     } catch (error) {
       res.status(500).json({ error: 'Internal server error' });
     }
