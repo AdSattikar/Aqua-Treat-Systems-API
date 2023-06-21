@@ -8,6 +8,7 @@ const customerRouter = require('./routes/customer')
 const adminRouter = require('./routes/admin')
 const loginRouter = require('./routes/login')
 const messageRouter = require('./routes/message')
+const productsRouter = require('./routes/product')
 const contactRouter = require('./routes/contactForm')
 const app = express();
 
