@@ -27,7 +27,6 @@ exports.submitContactForm = async (req, res) => {
 exports.getAllEnquiries = async (req, res) => {
     try {
       const enquiries = await ContactForm.find();
-      console.log(enquiries)
       res.status(201).json(enquiries);
     } catch (error) {
       res.status(500).json({ error: 'Internal server error' });
