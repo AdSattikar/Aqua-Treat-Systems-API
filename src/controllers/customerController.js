@@ -92,16 +92,30 @@ exports.updateCustomerById = async (req, res) => {
         customer[key] = req.body[key];
       }
     });
+    // Update nextservicedue field if date_last_service is provided
+    if (req.body.date_last_service) {
+      const installationDate = new Date(customer.date_of_installation);
+      const lastServiceDate = new Date(req.body.date_last_service);
+      if(lastServiceDate < installationDate){
+        res.status(400).json({message:"Error: Last Service Date cannot be before Installation Date"})
+        return
+      }
+      else{
+      const nextServiceDue = new Date(lastServiceDate);
+      nextServiceDue.setDate(nextServiceDue.getDate() + 365);
+      customer.nextservicedue = nextServiceDue;
+      }
+    }
 
+    
     const updatedCustomer = await customer.save();
-   
-
     res.status(205).json({ customer: updatedCustomer });
 
   } catch (error) {
     res.status(400).json({ error: 'Bad request' });
   }
 };
+
 
 
 
