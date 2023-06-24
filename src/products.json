@@ -1,51 +1,74 @@
 [
-    {
-      "id": 1,
-      "name": "Product 1",
-      "category": "Domestic",
-      "price": 10.99,
-      "description": "Description of Product 1",
-      "image": "https://example.com/images/product1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Product 2",
-      "category": "Commercial",
-      "price": 19.99,
-      "description": "Description of Product 2",
-      "image": "https://example.com/images/product2.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Product 3",
-      "category": "Softeners",
-      "price": 15.99,
-      "description": "Description of Product 3",
-      "image": "https://example.com/images/product3.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Product 4",
-      "category": "Magnetic Water Conditioner",
-      "price": 24.99,
-      "description": "Description of Product 4",
-      "image": "https://example.com/images/product4.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Product 5",
-      "category": "Domestic",
-      "price": 12.99,
-      "description": "Description of Product 5",
-      "image": "https://example.com/images/product5.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Product 6",
-      "category": "Commercial",
-      "price": 29.99,
-      "description": "Description of Product 6",
-      "image": "https://example.com/images/product6.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Aqua Jade UF",
+    "category": "Domestic",
+    "price": 10.99,
+    "description": "Best for Municipality water below 200ppm",
+    "image": "img/Home/aquajade.png"
+  },
+  {
+    "id": 2,
+    "name": "Aqua Pro RO",
+    "category": "Commercial",
+    "price": 19.99,
+    "description": "Ideal for commercial use",
+    "image": "img/Home/commercial.png"
+  },
+  {
+    "id": 3,
+    "name": "Aqua Soft Water Softener",
+    "category": "Softeners",
+    "price": 14.99,
+    "description": "Effective water softener solution",
+    "image": "img/Home/sandfilter.png"
+  },
+  {
+    "id": 4,
+    "name": "Aqua Max Magnatron",
+    "category": "Magnatron",
+    "price": 24.99,
+    "description": "Advanced water treatment system",
+    "image": "img/Magnatron/aquamax.png"
+  },
+  {
+    "id": 5,
+    "name": "Aqua Fresh RO",
+    "category": "Domestic",
+    "price": 12.99,
+    "description": "Best For Bore and Well Water",
+    "image": "img/Home/aquafresh.png"
+  },
+  {
+    "id": 6,
+    "name": "Aquafresh Nexus",
+    "category": "Domestic",
+    "price": 16600,
+    "description": "UV water purifier for home use",
+    "image": "img/Home/Aqua fresh nexus diamond.png"
+  },
+  {
+    "id": 7,
+    "name": "Aqua Pure Softener",
+    "category": "Softeners",
+    "price": 16.99,
+    "description": "High-performance water softener",
+    "image": "img/Home/softner.png"
+  },
+  {
+    "id": 8,
+    "name": "Aqua Pro+ RO",
+    "category": "Commercial",
+    "price": 21.99,
+    "description": "Advanced reverse osmosis system",
+    "image": "img/Home/commercial.png"
+  },
+  {
+    "id": 9,
+    "name": "Aqua Mega Magnatron",
+    "category": "Magnatron",
+    "price": 29.99,
+    "description": "Powerful water treatment solution",
+    "image": "img/Magnatron/aquamega.png"
+  }
+]
