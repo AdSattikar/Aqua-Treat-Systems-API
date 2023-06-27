@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "name": "Aqua Jade RO+UV+TDS Controller ",
+    "category": "Domestic",
+    "price": 11500,
+    "description": "Suitable for Bore / Well Water ",
+    "image": "https://jeiaquatech.in/wp-content/uploads/2021/07/aqua-jude-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aqua Jade UF",
+    "category": "Domestic",
+    "price": 7500,
+    "description": "5 Stage Fully Automatic, No electricity, Suitable for Low TDS/ River/ Corporation water",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2022/10/BQ/EK/ZL/29544876/aqua-jade-ro-water-purifier-500x500.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Aqua Jade RO+Alkaline",
+    "category": "Domestic",
+    "price": 13500,
+    "description": "Suitable for Bore / Well Water ",
+    "image": "img/Home/aquajade.png"
+  },
+  {
+    "id": 4,
+    "name": "Aqua Jade UF+Alkaline",
+    "category": "Domestic",
+    "price": 8500,
+    "description": "5 Stage Fully Automatic, No electricity, Suitable for Low TDS/ River/ Corporation water",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2022/10/BQ/EK/ZL/29544876/aqua-jade-ro-water-purifier-500x500.jpg"
+  },
+  
+  {
+    "id": 5,
+    "name": "Aqua Mars RO+UV+TDS Controller ",
+    "category": "Domestic",
+    "price": 11000,
+    "description": "Suitable for Bore / Well Water ",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2022/5/PH/OX/CO/138788110/9-litre-mr-aqua-mars-ro-water-purifier.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Aqua Mars UF",
+    "category": "Domestic",
+    "price": 6500,
+    "description": "5 Stage Fully Automatic, No electricity, Suitable for Low TDS/ River/ Corporation water",
+    "image": "https://jeiaquatech.in/wp-content/uploads/2022/08/AQUA-MARS.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Aqua Fresh RO+UV+UF+TDS Controller",
+    "category": "Domestic",
+    "price": 11000,
+    "description": "Suitable for Bore / Well Water ",
+    "image": "img/Home/aquafresh.png"
+  },
+
+  {
+    "id": 8,
+    "name": "Livpure glitz UV+UF",
+    "category": "Domestic",
+    "price": 9490,
+    "description": "4 Stage, 7 Litre Storage",
+    "image": "https://www.freedomcart.com/image/cache/data/Products/Home%20appliances/livpure-glitz-water-purifier-700x700.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Livpure glitz silver RO+UF+Mineraliser",
+    "category": "Domestic",
+    "price": 12490,
+    "description": "Suitable for Bore / Well Water",
+    "image": "https://m.media-amazon.com/images/I/51-Trw28FZL.jpg"
+  },
+ 
+  {
+    "id": 10,
+    "name": "Livpure Bolt+ Copper RO+UF+Mineralizer",
+    "category": "Domestic",
+    "price": 16490,
+    "description": "Suitable for Bore / Well Water ",
+    "image": "https://m.media-amazon.com/images/I/41s1NI12u0L._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Livpure Platino+ Copper RO+UV+UF+Mineralizer",
+    "category": "Domestic",
+    "price": 23990,
+    "description": "Suitable for Bore / Well Water ",
+    "image": "https://cdn.shopify.com/s/files/1/0566/8336/4539/files/New_PLATINO_03_1024x1024.webp?v=1636609005"
+  },
+  {
+    "id": 12,
+    "name": "Livpure Zinger RO+UV+UF+Mineralizer",
+    "category": "Domestic",
+    "price": 18990,
+    "description": "Suitable for Bore / Well Water ",
+    "image": "https://m.media-amazon.com/images/I/61uenVD3-HL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Livpure Zinger Copper Hot",
+    "category": "Domestic",
+    "price": 31990,
+    "description": "Suitable for Bore / Well Water ",
+    "image": "https://cdn.shopify.com/s/files/1/0414/1357/4809/products/livpure-ro-zinger-copper-hot-water-purifier-34509741654169.jpg?v=1686543949&width=1445"
+  },
+  {
+    "id": 14,
+    "name": "Ultra Aqua Versa A RO+UV",
+    "category": "Domestic",
+    "price": 13500,
+    "description": "Suitable for Bore / Well Water ",
+    "image": "img/Products/ultraaqua-versa.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Ultra Aqua Glamour RO+Alkaline",
+    "category": "Domestic",
+    "price": 16500,
+    "description": "Suitable for Bore / Well Water ",
+    "image": "img/Products/ultraaqua-glamour.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Ultra Aqua Aspire OT Open Flow RO+Minerals",
+    "category": "Domestic",
+    "price": 11500,
+    "description": "Suitable for Bore / Well Water 12-15 LPH",
+    "image": "img/Products/ultraaqua-aspire.jpg"
+  },
+  {
+    "id": 17,
+    "name": "25-30 LPH RO Water Purifier",
+    "category": "Commercial",
+    "price": 18500,
+    "description": "Suitable for Bore / Well Water, Maximum Output: 100Lts per day",
+    "image": "img/Products/ultraaqua-25-30.jpg"
+  },
+  {
+    "id": 18,
+    "name": "50 LPH RO Water Purifier",
+    "category": "Commercial",
+    "price": 36500,
+    "description": "Suitable for Bore / Well Water, Maximum Output: 200Lts per day",
+    "image": "img/Products/ultraaqua-50.jpg"
+  },
+  {
+    "id": 19,
+    "name": "100 LPH RO Water Purifier",
+    "category": "Commercial",
+    "price": 54000,
+    "description": "Suitable for Bore / Well Water, Maximum Output: 400Lts per day",
+    "image": "img/Products/ultraaqua-100.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Whole House Water Softners 3000 LPH",
+    "category": "Softeners",
+    "price": "32000 onwards",
+    "description": "Converts Bore-Well Hard Water into Soft Water, Prevents scale formation on expensive bathroom fittings and tiles, Prevents hair fall and Skin irritation, Improves soap lather ",
+    "image": "https://5.imimg.com/data5/LP/BK/LO/SELLER-5206375/3000-lph-domestic-automatic-water-softening-system.png"
+  },
+  {
+    "id": 21,
+    "name": "Whole House Sand Filter 3000 LPH",
+    "category": "Softeners",
+    "price": "25000 onwards",
+    "description": "Overall removal of mud and turbidity in water with Multiport Valve with Backwash Facility",
+    "image": "https://www.aquakentwaterfilter.com.my/wp-content/uploads/2017/08/Outdoor-Whole-House-Master-Water-Filter-System-9in.-35-Sand-Filter-1.png"
+  },
+  {
+    "id": 22,
+    "name": "Magnetic Water Conditioners",
+    "category": "Magnetic Water Conditioner",
+    "price": "24000 onwards",
+    "description": "Fit and Forget.. 0 Maintanence.. Converts Bore-Well Hard Water into Soft Water, Prevents scale formation on expensive bathroom fittings and tiles, Prevents hair fall and Skin irritation, Improves soap lather ",
+    "image": "https://www.magnatron.in/images/water-conditioner-banner.jpg"
+  },
+  {
+    "id": 23,
+    "name": "2000 LPH Commercial RO Plant",
+    "category": "Commercial",
+    "price": "240000",
+    "description": "",
+    "image": "https://cpimg.tistatic.com/08313634/b/4/2000-LPH-RO-Plant-Commercial-RO-Plant.jpg"
+  }
+]
