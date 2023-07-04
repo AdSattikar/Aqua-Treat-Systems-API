@@ -19,15 +19,9 @@ app.use(express.json())
 app.use(cors())
 
 //Routers
-// app.use(customerRouter)
-// app.use(adminRouter)
-// app.use(loginRouter)
-// app.use(messageRouter)
-// app.use(contactRouter)
-// app.use(productsRouter)
+
 
 app.use('/.netlify/functions/index',customerRouter,adminRouter,loginRouter,messageRouter,contactRouter,productsRouter)
-//Server Running 
-app.listen(port, () => console.log(`Server running at port ${port}`));
+
 
 module.exports.handler = serverless(app);
