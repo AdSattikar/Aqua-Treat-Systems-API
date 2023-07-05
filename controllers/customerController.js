@@ -37,6 +37,7 @@ exports.createCustomer = async (req, res) => {
     cost,
     date_of_installation,
     date_last_service,
+    description,
     contact,
     address,
   } = req.body;
@@ -45,7 +46,7 @@ exports.createCustomer = async (req, res) => {
   const last_service = new Date(date_last_service).toLocaleDateString();
   let nextServiceDue = new Date(date_last_service);
   nextServiceDue.setDate(nextServiceDue.getDate() + 365);
-
+  console.log(description)
   try {
     const customer = new Customer({
       customerId,
@@ -56,9 +57,15 @@ exports.createCustomer = async (req, res) => {
       cost,
       date_of_installation:installationdate,
       date_last_service:last_service,
+      service_history: [
+        {
+          last_service_date: last_service,
+          description, 
+        },
+      ],
       nextservicedue: nextServiceDue,
       contact,
-      address,
+      address
     });
     // Check if Customer with the same customerId already exists
     const existingCustomer = await Customer.findOne({ customerId });
@@ -67,7 +74,7 @@ exports.createCustomer = async (req, res) => {
     }
     else{
     const savedCustomer = await customer.save();
-    
+
     res.status(201).json(savedCustomer);
     }
   } catch (error) {
@@ -107,7 +114,21 @@ exports.updateCustomerById = async (req, res) => {
       }
     }
 
-    
+    // Update service history if date_last_service and description are provided
+    if (req.body.date_last_service && req.body.description) {
+      const lastServiceDate = new Date(req.body.date_last_service);
+      const description = req.body.description;
+      console.log(description)
+      if(description !== ""){
+      // Append the new service entry to the service_history array
+      customer.service_history.push({ last_service_date: lastServiceDate, description:description });
+      }
+      else if(description === ""){
+        res.status(400).json({message:"Error: Please provide a description"})
+        return
+      }
+    }
+
     const updatedCustomer = await customer.save();
     res.status(205).json({ customer: updatedCustomer });
 

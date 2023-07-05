@@ -33,3 +33,17 @@ exports.getAllEnquiries = async (req, res) => {
     }
   };
 
+// Delete enquiries
+exports.deleteEnquiries = async (req, res) => {
+  try {
+    const { selectedEnquiries } = req.body;
+
+    // Delete the selected enquiries from the database
+    await ContactForm.deleteMany({ _id: { $in: selectedEnquiries } });
+
+    // Respond with a success message
+    res.status(200).json({ message: 'Enquiries deleted successfully' });
+  } catch (error) {
+    res.status(500).json({ error: 'Internal server error' });
+  }
+};

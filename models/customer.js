@@ -58,6 +58,27 @@ const customerSchema = new mongoose.Schema({
       message: 'Please provide a valid date of last service',
     },
   },
+  service_history: [
+    {
+      last_service_date: {
+        type: Date,
+        required: [true, 'Please provide a date for the last service'],
+        validate: {
+          validator: function (value) {
+            return value instanceof Date && !isNaN(value);
+          },
+          message: 'Please provide a valid date for the last service',
+        },
+        default: function () {
+          return this.date_last_service; // Set the default value to the value of date_last_service
+        },
+      },
+      description: {
+        type: String,
+        required: [true, 'Please provide service information'],
+      },
+    },
+  ],
   nextservicedue: {
     type: Date,
     required: [true, 'Please provide a date for next service'],
