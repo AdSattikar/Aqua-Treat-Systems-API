@@ -8,4 +8,6 @@ router.post('/contact', contactController.submitContactForm);
 // Fetch all enquiries
 router.get('/dashboard/customer/enquiry', contactController.getAllEnquiries);
 
+router.delete('/dashboard/customer/enquiry', contactController.deleteEnquiries);
+
 module.exports = router;
